@@ -18,6 +18,3 @@ def heap(n):
 					swap(0,m-1)
 	generate(n)
 	return(S)
-
-heap(3)
-print(heap(3))	#[[0, 1, 2], [1, 0, 2], [2, 0, 1], [0, 2, 1], [1, 2, 0], [2, 1, 0]]
